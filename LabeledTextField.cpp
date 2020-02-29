@@ -1,7 +1,3 @@
-//
-// Created by upupu on 29/02/2020.
-//
-
 #include <QtWidgets/QHBoxLayout>
 #include "LabeledTextField.h"
 
