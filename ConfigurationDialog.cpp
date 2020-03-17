@@ -15,7 +15,7 @@ ConfigurationDialog::ConfigurationDialog(QDialog* parent) : QDialog(parent) {
     this->setMinimumSize(150, 100);
     this->setWindowTitle("Configuration");
     this->setMinimumSize(150, 100);
-    std::cout << "test2";
+    std::cout << "test3";
 
     this->tf1 = new LabeledTextField("IP address");
     this->tf1->setMaximumHeight(21);
