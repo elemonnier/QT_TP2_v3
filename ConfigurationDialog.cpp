@@ -5,6 +5,7 @@
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QTextEdit>
+#include <iostream>
 #include "ConfigurationDialog.h"
 #include "LabeledTextField.h"
 
@@ -14,6 +15,7 @@ ConfigurationDialog::ConfigurationDialog(QDialog* parent) : QDialog(parent) {
     this->setMinimumSize(150, 100);
     this->setWindowTitle("Configuration");
     this->setMinimumSize(150, 100);
+    std::cout << "test";
 
     this->tf1 = new LabeledTextField("IP address");
     this->tf1->setMaximumHeight(21);
