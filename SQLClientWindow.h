@@ -12,7 +12,7 @@
 #include "ButtonsPanel.h"
 
 
-class SQLClientWindow : public QWidget { //todo marche pas avec qmainwindow
+class SQLClientWindow : public QWidget {
 private:
     ButtonsPanel* buttonsPanel;
     QTextEdit* notificationPanel;

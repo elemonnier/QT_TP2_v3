@@ -2,12 +2,14 @@
 // Created by upupu on 27/02/2020.
 //
 
+// todo probleme de github
+
 #include <QtWidgets/QVBoxLayout>
 #include "SQLClientWindow.h"
 #include "ButtonsPanel.h"
 #include <QtWidgets/QHeaderView>
 
-SQLClientWindow::SQLClientWindow() {
+SQLClientWindow::SQLClientWindow() { // todo faire avec un parent et nullptr en constructeur par défaut
     this->setWindowTitle("SQL Client");
     this->setMinimumSize(600, 400);
     auto layout = new QVBoxLayout();

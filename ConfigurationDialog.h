@@ -7,9 +7,15 @@
 
 
 #include <QtWidgets/QDialog>
+#include "LabeledTextField.h"
 
 class ConfigurationDialog : QDialog{
-
+private:
+    LabeledTextField* tf1;
+    LabeledTextField* tf2;
+    LabeledTextField* tf3;
+public:
+    ConfigurationDialog(QDialog* = nullptr);
 };
 
 

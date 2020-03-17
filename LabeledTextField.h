@@ -9,13 +9,14 @@
 #include <QtWidgets/QWidget>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QTextEdit>
+#include "ConfigurationDialog.h"
 
 class LabeledTextField : public QWidget {
 private:
     QLabel* label;
     QTextEdit* textEdit;
 public:
-    LabeledTextField();
+    LabeledTextField(const QString = " ", QWidget* parent = nullptr);
 };
 
 
